@@ -1,0 +1,115 @@
+.logo{
+	align-items: center;
+	display: flex;
+}
+
+.logo img{
+	width: 48px;
+	height: 48px;
+}
+
+.logo span{
+	font-size: 24px;
+	padding-left: 5px;
+}
+
+.footer{
+	text-align: center;
+}
+
+.register{
+	float: right !important;
+}
+
+.container{
+	padding-top: 10px;
+}
+
+.leftContainer{
+	overflow: auto;
+	width:400px;
+	float: left;
+	zoom:1;
+ }
+
+ .carousel_img{
+ 	height: 200px;
+ 	width:400px;
+ }
+
+.carousel{
+ 	height: 200px;
+	width:400px;
+ }
+
+ .topNewsList{
+ 	float: left;
+ 	padding-top: 10px;
+ }
+
+ .imageblock {
+   float: left;
+   padding-left: 25px;
+   padding-top: 25px;
+}
+
+.tabs_news{
+	padding-left:10px;
+}
+
+.custome-card{
+	text-align: center;
+}
+
+
+.leftImage{
+  width:100px;
+  height: 100px;
+  background: orange;
+}
+.leftImageContainer{
+  float: left;
+}
+
+.item-li{
+  list-style-type:none;
+  clear: left;
+}
+
+.item_container{
+  border:1px solid gray;
+  height: 100px;
+  width: 100%;
+}
+
+.rightContainer{
+  height:100%;
+}
+
+.right_info{
+  height: 50%;
+  position: relative;
+}
+
+.right_title{
+  box-sizing: border-box;
+  height: 50%;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.span_author{
+  position: absolute;
+  bottom: 5px;
+  left:110px;
+}
+
+.span_time{
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+}
